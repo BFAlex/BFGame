@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84F11111F53A98800726C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11101F53A98800726C11 /* main.m */; };
+		A84F11141F53A98800726C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11131F53A98800726C11 /* AppDelegate.m */; };
+		A84F11171F53A98800726C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11161F53A98800726C11 /* ViewController.m */; };
+		A84F111A1F53A98800726C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84F11181F53A98800726C11 /* Main.storyboard */; };
+		A84F111C1F53A98800726C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84F111B1F53A98800726C11 /* Assets.xcassets */; };
+		A84F111F1F53A98800726C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84F111D1F53A98800726C11 /* LaunchScreen.storyboard */; };
+		A84F112A1F53A98900726C11 /* BFGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11291F53A98900726C11 /* BFGameTests.m */; };
+		A84F11351F53A98900726C11 /* BFGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11341F53A98900726C11 /* BFGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84F11261F53A98900726C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84F11041F53A98800726C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84F110B1F53A98800726C11;
+			remoteInfo = BFGame;
+		};
+		A84F11311F53A98900726C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A84F11041F53A98800726C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A84F110B1F53A98800726C11;
+			remoteInfo = BFGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A84F110C1F53A98800726C11 /* BFGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84F11101F53A98800726C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A84F11121F53A98800726C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A84F11131F53A98800726C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A84F11151F53A98800726C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A84F11161F53A98800726C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A84F11191F53A98800726C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A84F111B1F53A98800726C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84F111E1F53A98800726C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A84F11201F53A98800726C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84F11251F53A98900726C11 /* BFGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84F11291F53A98900726C11 /* BFGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFGameTests.m; sourceTree = "<group>"; };
+		A84F112B1F53A98900726C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84F11301F53A98900726C11 /* BFGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84F11341F53A98900726C11 /* BFGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFGameUITests.m; sourceTree = "<group>"; };
+		A84F11361F53A98900726C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84F11091F53A98800726C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F11221F53A98900726C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F112D1F53A98900726C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A84F11031F53A98800726C11 = {
+			isa = PBXGroup;
+			children = (
+				A84F110E1F53A98800726C11 /* BFGame */,
+				A84F11281F53A98900726C11 /* BFGameTests */,
+				A84F11331F53A98900726C11 /* BFGameUITests */,
+				A84F110D1F53A98800726C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84F110D1F53A98800726C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84F110C1F53A98800726C11 /* BFGame.app */,
+				A84F11251F53A98900726C11 /* BFGameTests.xctest */,
+				A84F11301F53A98900726C11 /* BFGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84F110E1F53A98800726C11 /* BFGame */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11121F53A98800726C11 /* AppDelegate.h */,
+				A84F11131F53A98800726C11 /* AppDelegate.m */,
+				A84F11151F53A98800726C11 /* ViewController.h */,
+				A84F11161F53A98800726C11 /* ViewController.m */,
+				A84F11181F53A98800726C11 /* Main.storyboard */,
+				A84F111B1F53A98800726C11 /* Assets.xcassets */,
+				A84F111D1F53A98800726C11 /* LaunchScreen.storyboard */,
+				A84F11201F53A98800726C11 /* Info.plist */,
+				A84F110F1F53A98800726C11 /* Supporting Files */,
+			);
+			path = BFGame;
+			sourceTree = "<group>";
+		};
+		A84F110F1F53A98800726C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11101F53A98800726C11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A84F11281F53A98900726C11 /* BFGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11291F53A98900726C11 /* BFGameTests.m */,
+				A84F112B1F53A98900726C11 /* Info.plist */,
+			);
+			path = BFGameTests;
+			sourceTree = "<group>";
+		};
+		A84F11331F53A98900726C11 /* BFGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11341F53A98900726C11 /* BFGameUITests.m */,
+				A84F11361F53A98900726C11 /* Info.plist */,
+			);
+			path = BFGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84F110B1F53A98800726C11 /* BFGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84F11391F53A98900726C11 /* Build configuration list for PBXNativeTarget "BFGame" */;
+			buildPhases = (
+				A84F11081F53A98800726C11 /* Sources */,
+				A84F11091F53A98800726C11 /* Frameworks */,
+				A84F110A1F53A98800726C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFGame;
+			productName = BFGame;
+			productReference = A84F110C1F53A98800726C11 /* BFGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A84F11241F53A98900726C11 /* BFGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84F113C1F53A98900726C11 /* Build configuration list for PBXNativeTarget "BFGameTests" */;
+			buildPhases = (
+				A84F11211F53A98900726C11 /* Sources */,
+				A84F11221F53A98900726C11 /* Frameworks */,
+				A84F11231F53A98900726C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84F11271F53A98900726C11 /* PBXTargetDependency */,
+			);
+			name = BFGameTests;
+			productName = BFGameTests;
+			productReference = A84F11251F53A98900726C11 /* BFGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A84F112F1F53A98900726C11 /* BFGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84F113F1F53A98900726C11 /* Build configuration list for PBXNativeTarget "BFGameUITests" */;
+			buildPhases = (
+				A84F112C1F53A98900726C11 /* Sources */,
+				A84F112D1F53A98900726C11 /* Frameworks */,
+				A84F112E1F53A98900726C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84F11321F53A98900726C11 /* PBXTargetDependency */,
+			);
+			name = BFGameUITests;
+			productName = BFGameUITests;
+			productReference = A84F11301F53A98900726C11 /* BFGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A84F11041F53A98800726C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Readboy_BFAlex;
+				TargetAttributes = {
+					A84F110B1F53A98800726C11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2J5C844G24;
+						ProvisioningStyle = Automatic;
+					};
+					A84F11241F53A98900726C11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2J5C844G24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A84F110B1F53A98800726C11;
+					};
+					A84F112F1F53A98900726C11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2J5C844G24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A84F110B1F53A98800726C11;
+					};
+				};
+			};
+			buildConfigurationList = A84F11071F53A98800726C11 /* Build configuration list for PBXProject "BFGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A84F11031F53A98800726C11;
+			productRefGroup = A84F110D1F53A98800726C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84F110B1F53A98800726C11 /* BFGame */,
+				A84F11241F53A98900726C11 /* BFGameTests */,
+				A84F112F1F53A98900726C11 /* BFGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84F110A1F53A98800726C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84F111F1F53A98800726C11 /* LaunchScreen.storyboard in Resources */,
+				A84F111C1F53A98800726C11 /* Assets.xcassets in Resources */,
+				A84F111A1F53A98800726C11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F11231F53A98900726C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F112E1F53A98900726C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84F11081F53A98800726C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84F11171F53A98800726C11 /* ViewController.m in Sources */,
+				A84F11141F53A98800726C11 /* AppDelegate.m in Sources */,
+				A84F11111F53A98800726C11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F11211F53A98900726C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84F112A1F53A98900726C11 /* BFGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F112C1F53A98900726C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84F11351F53A98900726C11 /* BFGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84F11271F53A98900726C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84F110B1F53A98800726C11 /* BFGame */;
+			targetProxy = A84F11261F53A98900726C11 /* PBXContainerItemProxy */;
+		};
+		A84F11321F53A98900726C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A84F110B1F53A98800726C11 /* BFGame */;
+			targetProxy = A84F11311F53A98900726C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A84F11181F53A98800726C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84F11191F53A98800726C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84F111D1F53A98800726C11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84F111E1F53A98800726C11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84F11371F53A98900726C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84F11381F53A98900726C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84F113A1F53A98900726C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2J5C844G24;
+				INFOPLIST_FILE = BFGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A84F113B1F53A98900726C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2J5C844G24;
+				INFOPLIST_FILE = BFGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A84F113D1F53A98900726C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2J5C844G24;
+				INFOPLIST_FILE = BFGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BFGame.app/BFGame";
+			};
+			name = Debug;
+		};
+		A84F113E1F53A98900726C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2J5C844G24;
+				INFOPLIST_FILE = BFGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BFGame.app/BFGame";
+			};
+			name = Release;
+		};
+		A84F11401F53A98900726C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2J5C844G24;
+				INFOPLIST_FILE = BFGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BFGame;
+			};
+			name = Debug;
+		};
+		A84F11411F53A98900726C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2J5C844G24;
+				INFOPLIST_FILE = BFGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BFGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84F11071F53A98800726C11 /* Build configuration list for PBXProject "BFGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84F11371F53A98900726C11 /* Debug */,
+				A84F11381F53A98900726C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84F11391F53A98900726C11 /* Build configuration list for PBXNativeTarget "BFGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84F113A1F53A98900726C11 /* Debug */,
+				A84F113B1F53A98900726C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A84F113C1F53A98900726C11 /* Build configuration list for PBXNativeTarget "BFGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84F113D1F53A98900726C11 /* Debug */,
+				A84F113E1F53A98900726C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A84F113F1F53A98900726C11 /* Build configuration list for PBXNativeTarget "BFGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84F11401F53A98900726C11 /* Debug */,
+				A84F11411F53A98900726C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A84F11041F53A98800726C11 /* Project object */;
+}
