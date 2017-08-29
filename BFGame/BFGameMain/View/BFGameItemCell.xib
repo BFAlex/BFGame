@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BFGameItemCellID" id="IIr-Fz-YDw" customClass="BFGameItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IIr-Fz-YDw" id="Yi6-35-isT">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmZ-NP-btF">
+                        <rect key="frame" x="8" y="8" width="225" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6J-I8-gcc">
+                        <rect key="frame" x="241" y="8" width="118" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cmZ-NP-btF" firstAttribute="leading" secondItem="Yi6-35-isT" secondAttribute="leadingMargin" id="IAg-y1-KWx"/>
+                    <constraint firstItem="cmZ-NP-btF" firstAttribute="top" secondItem="Yi6-35-isT" secondAttribute="topMargin" id="dS8-zR-PFh"/>
+                    <constraint firstItem="R6J-I8-gcc" firstAttribute="bottom" secondItem="cmZ-NP-btF" secondAttribute="bottom" id="eEB-VG-LIb"/>
+                    <constraint firstItem="cmZ-NP-btF" firstAttribute="width" secondItem="Yi6-35-isT" secondAttribute="width" multiplier="0.6" id="i8o-O9-Pc8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="R6J-I8-gcc" secondAttribute="trailing" constant="8" id="nu6-zs-9Vj"/>
+                    <constraint firstItem="R6J-I8-gcc" firstAttribute="leading" secondItem="cmZ-NP-btF" secondAttribute="trailing" constant="8" id="tJ0-6I-bp1"/>
+                    <constraint firstItem="R6J-I8-gcc" firstAttribute="top" secondItem="cmZ-NP-btF" secondAttribute="top" id="vlx-1I-uvk"/>
+                    <constraint firstItem="cmZ-NP-btF" firstAttribute="bottom" secondItem="Yi6-35-isT" secondAttribute="bottomMargin" id="wd4-VE-SCm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="cmZ-NP-btF" id="IC9-YN-p1p"/>
+                <outlet property="timeLabel" destination="R6J-I8-gcc" id="NTR-3W-4IG"/>
+            </connections>
+            <point key="canvasLocation" x="-67.5" y="33"/>
+        </tableViewCell>
+    </objects>
+</document>

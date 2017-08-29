@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		A84F11111F53A98800726C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11101F53A98800726C11 /* main.m */; };
 		A84F11141F53A98800726C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11131F53A98800726C11 /* AppDelegate.m */; };
-		A84F11171F53A98800726C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11161F53A98800726C11 /* ViewController.m */; };
 		A84F111A1F53A98800726C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84F11181F53A98800726C11 /* Main.storyboard */; };
 		A84F111C1F53A98800726C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84F111B1F53A98800726C11 /* Assets.xcassets */; };
 		A84F111F1F53A98800726C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84F111D1F53A98800726C11 /* LaunchScreen.storyboard */; };
 		A84F112A1F53A98900726C11 /* BFGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11291F53A98900726C11 /* BFGameTests.m */; };
 		A84F11351F53A98900726C11 /* BFGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11341F53A98900726C11 /* BFGameUITests.m */; };
+		A84F11441F53AA8500726C11 /* BFGameMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11431F53AA8500726C11 /* BFGameMainVC.m */; };
+		A84F11481F53AC8900726C11 /* BFBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11471F53AC8900726C11 /* BFBaseButton.m */; };
+		A84F114D1F53C76D00726C11 /* BFAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F114C1F53C76D00726C11 /* BFAddView.m */; };
+		A84F114F1F53C77F00726C11 /* BFAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84F114E1F53C77F00726C11 /* BFAddView.xib */; };
+		A84F11531F53F4C400726C11 /* BFGameItemModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11521F53F4C400726C11 /* BFGameItemModule.m */; };
+		A84F11551F54037200726C11 /* BFGameItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84F11541F54037200726C11 /* BFGameItemCell.xib */; };
+		A84F11581F54039400726C11 /* BFGameItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F11571F54039400726C11 /* BFGameItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		A84F11101F53A98800726C11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A84F11121F53A98800726C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A84F11131F53A98800726C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A84F11151F53A98800726C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A84F11161F53A98800726C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A84F11191F53A98800726C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A84F111B1F53A98800726C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84F111E1F53A98800726C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,18 @@
 		A84F11301F53A98900726C11 /* BFGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84F11341F53A98900726C11 /* BFGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFGameUITests.m; sourceTree = "<group>"; };
 		A84F11361F53A98900726C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84F11421F53AA8500726C11 /* BFGameMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGameMainVC.h; sourceTree = "<group>"; };
+		A84F11431F53AA8500726C11 /* BFGameMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGameMainVC.m; sourceTree = "<group>"; };
+		A84F11461F53AC8900726C11 /* BFBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFBaseButton.h; sourceTree = "<group>"; };
+		A84F11471F53AC8900726C11 /* BFBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFBaseButton.m; sourceTree = "<group>"; };
+		A84F114B1F53C76D00726C11 /* BFAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAddView.h; sourceTree = "<group>"; };
+		A84F114C1F53C76D00726C11 /* BFAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAddView.m; sourceTree = "<group>"; };
+		A84F114E1F53C77F00726C11 /* BFAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFAddView.xib; sourceTree = "<group>"; };
+		A84F11511F53F4C400726C11 /* BFGameItemModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGameItemModule.h; sourceTree = "<group>"; };
+		A84F11521F53F4C400726C11 /* BFGameItemModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGameItemModule.m; sourceTree = "<group>"; };
+		A84F11541F54037200726C11 /* BFGameItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFGameItemCell.xib; sourceTree = "<group>"; };
+		A84F11561F54039400726C11 /* BFGameItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGameItemCell.h; sourceTree = "<group>"; };
+		A84F11571F54039400726C11 /* BFGameItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGameItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,12 @@
 		A84F110E1F53A98800726C11 /* BFGame */ = {
 			isa = PBXGroup;
 			children = (
+				A84F11491F53C6B400726C11 /* BFGameMain */,
+				A84F11451F53AC5000726C11 /* BFBaseView */,
 				A84F11121F53A98800726C11 /* AppDelegate.h */,
 				A84F11131F53A98800726C11 /* AppDelegate.m */,
-				A84F11151F53A98800726C11 /* ViewController.h */,
-				A84F11161F53A98800726C11 /* ViewController.m */,
+				A84F11421F53AA8500726C11 /* BFGameMainVC.h */,
+				A84F11431F53AA8500726C11 /* BFGameMainVC.m */,
 				A84F11181F53A98800726C11 /* Main.storyboard */,
 				A84F111B1F53A98800726C11 /* Assets.xcassets */,
 				A84F111D1F53A98800726C11 /* LaunchScreen.storyboard */,
@@ -138,6 +156,46 @@
 				A84F11361F53A98900726C11 /* Info.plist */,
 			);
 			path = BFGameUITests;
+			sourceTree = "<group>";
+		};
+		A84F11451F53AC5000726C11 /* BFBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11461F53AC8900726C11 /* BFBaseButton.h */,
+				A84F11471F53AC8900726C11 /* BFBaseButton.m */,
+			);
+			path = BFBaseView;
+			sourceTree = "<group>";
+		};
+		A84F11491F53C6B400726C11 /* BFGameMain */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11501F53F47D00726C11 /* Module */,
+				A84F114A1F53C72600726C11 /* View */,
+			);
+			path = BFGameMain;
+			sourceTree = "<group>";
+		};
+		A84F114A1F53C72600726C11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A84F114E1F53C77F00726C11 /* BFAddView.xib */,
+				A84F114B1F53C76D00726C11 /* BFAddView.h */,
+				A84F114C1F53C76D00726C11 /* BFAddView.m */,
+				A84F11541F54037200726C11 /* BFGameItemCell.xib */,
+				A84F11561F54039400726C11 /* BFGameItemCell.h */,
+				A84F11571F54039400726C11 /* BFGameItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A84F11501F53F47D00726C11 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A84F11511F53F4C400726C11 /* BFGameItemModule.h */,
+				A84F11521F53F4C400726C11 /* BFGameItemModule.m */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +309,8 @@
 			files = (
 				A84F111F1F53A98800726C11 /* LaunchScreen.storyboard in Resources */,
 				A84F111C1F53A98800726C11 /* Assets.xcassets in Resources */,
+				A84F114F1F53C77F00726C11 /* BFAddView.xib in Resources */,
+				A84F11551F54037200726C11 /* BFGameItemCell.xib in Resources */,
 				A84F111A1F53A98800726C11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A84F11171F53A98800726C11 /* ViewController.m in Sources */,
+				A84F11531F53F4C400726C11 /* BFGameItemModule.m in Sources */,
+				A84F11481F53AC8900726C11 /* BFBaseButton.m in Sources */,
+				A84F11581F54039400726C11 /* BFGameItemCell.m in Sources */,
+				A84F114D1F53C76D00726C11 /* BFAddView.m in Sources */,
+				A84F11441F53AA8500726C11 /* BFGameMainVC.m in Sources */,
 				A84F11141F53A98800726C11 /* AppDelegate.m in Sources */,
 				A84F11111F53A98800726C11 /* main.m in Sources */,
 			);
@@ -429,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2J5C844G24;
 				INFOPLIST_FILE = BFGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2J5C844G24;
 				INFOPLIST_FILE = BFGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bf.BFGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";

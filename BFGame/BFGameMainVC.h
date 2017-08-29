@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BFGameMainVC.h
 //  BFGame
 //
 //  Created by Readboy_BFAlex on 2017/8/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BFGameMainVC : UIViewController
 
 @end
-
